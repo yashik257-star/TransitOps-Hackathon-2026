@@ -107,3 +107,127 @@ button:hover{
     background:#08375f;
 
 }
+
+.sidebar{
+
+    position:fixed;
+
+    width:230px;
+
+    height:100%;
+
+    background:#0F4C81;
+
+    padding-top:20px;
+
+}
+
+.logo{
+
+    width:90px;
+
+    display:block;
+
+    margin:auto;
+
+    border-radius:50%;
+
+}
+
+.sidebar h2{
+
+    color:white;
+
+    text-align:center;
+
+    margin:15px 0;
+
+}
+
+.sidebar a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px;
+
+    font-size:18px;
+
+}
+
+.sidebar a:hover{
+
+    background:#08375f;
+
+}
+
+.main{
+
+    margin-left:250px;
+
+    padding:30px;
+
+}
+
+.cards{
+
+    display:flex;
+
+    gap:20px;
+
+    margin:30px 0;
+
+}
+
+.card{
+
+    background:white;
+
+    width:220px;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+    text-align:center;
+
+}
+
+.card h2{
+
+    color:#0F4C81;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+}
+
+table th{
+
+    background:#0F4C81;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+table td{
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+}
