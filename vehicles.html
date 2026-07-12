@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Management</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+
+    <img src="asset/logo.png" class="logo">
+
+    <h2>TransitOps</h2>
+
+    <a href="dashboard.html">🏠 Dashboard</a>
+    <a href="vehicles.html">🚚 Vehicles</a>
+    <a href="drivers.html">👨 Drivers</a>
+    <a href="trip.html">🛣 Trips</a>
+    <a href="login.html">🚪 Logout</a>
+
+</div>
+
+<div class="main">
+
+<h1>Vehicle Management</h1>
+
+<div class="vehicle-form">
+
+<h2>Add New Vehicle</h2>
+
+<label>Vehicle Number</label>
+<input type="text" id="vnumber" placeholder="Example: TR101">
+
+<label>Vehicle Name</label>
+<input type="text" id="vname" placeholder="Example: Tata Ace">
+
+<label>Vehicle Type</label>
+<input type="text" id="vtype" placeholder="Mini Truck">
+
+<label>Capacity</label>
+<input type="text" id="vcapacity" placeholder="1000 kg">
+
+<label>Status</label>
+
+<select id="vstatus">
+
+<option>Available</option>
+
+<option>On Trip</option>
+
+<option>Maintenance</option>
+
+</select>
+
+<button onclick="addVehicle()">Add Vehicle</button>
+
+</div>
+
+<br>
+
+<table id="vehicleTable">
+
+<tr>
+    <th>Vehicle Number</th>
+    <th>Vehicle Name</th>
+    <th>Type</th>
+    <th>Capacity</th>
+    <th>Status</th>
+    <th>Action</th>
+</tr>
+
+</table>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

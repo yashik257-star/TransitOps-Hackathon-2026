@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trip Management</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<img src="asset/logo.png" class="logo">
+
+<h2>TransitOps</h2>
+
+<a href="dashboard.html">🏠 Dashboard</a>
+<a href="vehicles.html">🚚 Vehicles</a>
+<a href="drivers.html">👨 Drivers</a>
+<a href="trip.html">🛣 Trips</a>
+<a href="login.html">🚪 Logout</a>
+
+</div>
+
+<div class="main">
+
+<h1>Trip Management</h1>
+
+<div class="vehicle-form">
+
+<h2>Create Trip</h2>
+
+<label>Trip ID</label>
+<input type="text" id="tripid" placeholder="TRIP001">
+
+<label>Vehicle Number</label>
+<input type="text" id="tripvehicle" placeholder="TR101">
+
+<label>Driver Name</label>
+<input type="text" id="tripdriver" placeholder="Rahul Kumar">
+
+<label>Source</label>
+<input type="text" id="source" placeholder="Delhi">
+
+<label>Destination</label>
+<input type="text" id="destination" placeholder="Mumbai">
+
+<button onclick="addTrip()">Create Trip</button>
+
+</div>
+
+<br>
+
+<table id="tripTable">
+
+<tr>
+<th>Trip ID</th>
+<th>Vehicle</th>
+<th>Driver</th>
+<th>Source</th>
+<th>Destination</th>
+<th>Action</th>
+</tr>
+
+</table>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

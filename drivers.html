@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Management</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+
+    <img src="asset/logo.png" class="logo">
+
+    <h2>TransitOps</h2>
+
+    <a href="dashboard.html">🏠 Dashboard</a>
+    <a href="vehicles.html">🚚 Vehicles</a>
+    <a href="drivers.html">👨 Drivers</a>
+    <a href="trip.html">🛣 Trips</a>
+    <a href="login.html">🚪 Logout</a>
+
+</div>
+
+<div class="main">
+
+<h1>Driver Management</h1>
+
+<div class="vehicle-form">
+
+<h2>Add New Driver</h2>
+
+<label>Driver Name</label>
+<input type="text" id="dname" placeholder="Enter Driver Name">
+
+<label>Phone Number</label>
+<input type="text" id="dphone" placeholder="Enter Phone Number">
+
+<label>License Number</label>
+<input type="text" id="dlicense" placeholder="Enter License Number">
+
+<label>Assigned Vehicle</label>
+<input type="text" id="dvehicle" placeholder="Example: TR101">
+
+<button onclick="addDriver()">Add Driver</button>
+
+</div>
+
+<br>
+
+<table id="driverTable">
+
+<tr>
+<th>Driver Name</th>
+<th>Phone</th>
+<th>License</th>
+<th>Assigned Vehicle</th>
+<th>Action</th>
+</tr>
+
+</table>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
